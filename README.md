@@ -27,3 +27,8 @@ Now the server is ready to receive petitions. There are two options:
 - Make the UX more user friendly, according to current front frameworks
 - Tests
 - Provide the possibility to filter the listed records in order to avoid overloading the visual information that the end user receives from the Web App.
+
+
+* Technical decisions
+
+According to me, it is not a good practise to create PRs with tones of files modified, so I decided to separate in different MRs instead of creating several commits. I believe it depends on the developer. From my point of view I prefer to review very specific PRs and well focused on what they are supposed to do. Peviewing a long PR can make it difficult to review and even miss the objective for which the PR exists.
